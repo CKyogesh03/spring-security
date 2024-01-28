@@ -1,0 +1,6 @@
+-lombok not working - to create constructor,getter and setters
+-in postman -> when returning saved data when signup - null is stored in
+    username(null) - check it. we are not setting username so it stores null.
+    we dont store username field in database bcoz email==username.
+
+    password(null) - password is correctly returned from save() . check encoder is working or not.
